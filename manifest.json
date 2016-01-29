@@ -10,6 +10,11 @@
 			"matches": ["http://*/*"],
 			"css": ["style.css"],
 			"js": ["script.js", "curses.json"]
-		}
+		},
+		{
+                        "matches": ["https://*/*"],
+                        "css": ["style.css"],
+                        "js": ["script.js", "curses.json"]
+                }
 	]
 }
