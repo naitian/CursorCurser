@@ -1,0 +1,23 @@
+#curseoverlay {
+	margin: auto;
+	text-align: center;
+	font-size: 132px;
+	font-family: Verdana, "Sans Serif";
+	color: #fff;
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+	z-index: 1000000;
+	position: fixed;
+	top: 0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	line-height: 100vh;
+}
+
+#cursetext {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
