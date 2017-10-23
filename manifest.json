@@ -7,12 +7,7 @@
 
     "content_scripts": [
         {
-            "matches": ["http://*/*"],
-            "css": ["style.css"],
-            "js": ["script.js", "curses.json"]
-        },
-        {
-            "matches": ["https://*/*"],
+            "matches": ["*://*/*"],
             "css": ["style.css"],
             "js": ["script.js", "curses.json"]
         }
